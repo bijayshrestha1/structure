@@ -21,7 +21,7 @@ void main()
 	scanf("%d",&choice);
 	switch(choice)
 	{
-		case1:
+		case 1:
 		clrscr();
 		printf("enter record of 3 students:\n");
 		for(i=0;i<3;i++)
@@ -36,7 +36,7 @@ void main()
 		}
 		break;
 		//search by id
-		case2:
+		case 2:
 		clrscr();
 		printf("\n enter student_id to search:");
 		scanf("%d",&srch);
@@ -50,7 +50,7 @@ void main()
 		}
 		break;
 		//search by name
-		case3:
+		case 3:
 		clrscr();
 		printf("enter student name to search:");
 		scanf("%s",&srh);
@@ -63,7 +63,7 @@ void main()
 			}
 		break;
 		//search by faculty
-		case4:
+		case 4:
 		clrscr();
 		printf("\nenter student faculty to search:");
 		scanf("%s",&srcch);
@@ -76,7 +76,7 @@ void main()
 			}
 		getch();
 		break;
-		case5:
+		case 5:
 		exit(0);
 		}
 		}
